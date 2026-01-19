@@ -90,13 +90,13 @@ public class Calculator {
 
 
     //деление
-    public static int division(int number1, int number2){
-        return number1 / number2;
+    public static double division(int number1, int number2){
+        return (double) number1 / number2;
     }
 
 
-    public static long division(long number1, long number2){
-        return number1 / number2;
+    public static double division(long number1, long number2){
+        return (double) number1 / number2;
     }
 
 
