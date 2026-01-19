@@ -13,12 +13,12 @@ public class Lab1 {
                 "знаю\n" +
                 "Java.\n");
         //задание 2
-        System.out.println((46 + 10) * (10 / 3));
+        System.out.println((46 + 10) * ((double)10 / 3));
         System.out.println((29) * (4) * (-15));
 
         //задание 3
         int number = 10500;
-        System.out.println((number / 10) / 10);
+        System.out.println(((double)number / 10) / 10);
 
         //задание 4
         double a1 = 3.6;
