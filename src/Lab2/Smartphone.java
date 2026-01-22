@@ -3,8 +3,8 @@ package Lab2;
 public class Smartphone {
 
     private String brand;
-    String model;
-    int memory;
+    private String model;
+    private int memory;
 
 
     public Smartphone(){
