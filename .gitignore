@@ -1,8 +1,11 @@
-### IntelliJ IDEA ###
+### Build / Output ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
 
 ### Eclipse ###
 .apt_generated
@@ -12,9 +15,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,5 +26,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS ###
 .DS_Store
