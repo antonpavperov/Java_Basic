@@ -27,8 +27,5 @@ public class Main {
 
         System.out.println("= Сортировка массива слиянием =");
         part2.mergeSortExampleSingleMethod();
-
     }
-
-
 }
