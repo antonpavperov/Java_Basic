@@ -7,39 +7,20 @@ public class Part2 {
     Scanner scanner = new Scanner(System.in);
 
 //задание 1
-    public void checkMassiveSorted() {
-
-        int[] array = {1, 2, 6, 8, 9};
-
-        boolean isSorted = true;
+    public boolean checkMassiveSorted(int[] array) {
 
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
-                isSorted = false;
-                break;
+                return false;
             }
         }
-
-        if (isSorted) {
-            System.out.println("OK");
-        } else {
-            System.out.println("Please, try again");
-
-        }
+        return true;
     }
 
 //задание 2
-    public void arrayMaker(){
+    public int[] arrayMaker(int[] array) {
 
-        System.out.println("Введите длинну массива: ");
-        int n = scanner.nextInt();
-        int[] array_1 = new int[n];
-
-        for(int i = 0; i < n; i++ ){
-            array_1 [i] = scanner.nextInt();
-        }
-
-        System.out.println("Результат: " + Arrays.toString(array_1));
+        return array;
     }
 
 //задание 3
