@@ -28,11 +28,16 @@ public class Main {
         System.out.println(word3 + " → " + isPalindrome(word3));
 
 
-        System.out.println("= Задание 3: Цензурирование  =");
+        System.out.println("= Задание 3: Цензурирование =");
 
-        String text1 = "Я сидел и доедал последний кусочек торта, сзади открылась дверь, по шагам я узнал свою жену, моя спина покрылась мурашками. Ах ты бяка, не оставил мне ни крошки!";
+        String text1 = "Я сидел и доедал последний кусочек торта, " +
+                "сзади открылась дверь, по шагам я узнал свою жену, " +
+                "моя спина покрылась мурашками. Ах ты бяка, не оставил мне ни крошки!";
 
-        String result = censorText(text1);
+        String badWord = "бяка";
+        String replacement = "[вырезано цензурой]";
+
+        String result = censorText(text1, badWord, replacement);
 
         System.out.println(result);
 

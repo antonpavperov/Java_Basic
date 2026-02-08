@@ -38,9 +38,9 @@ public class Lab5 {
     }
 
 //задание 3
-    public static String censorText(String text1) {
-        return text1.replaceAll("(?i)бяка", "[вырезано цензурой]");
-    }
+public static String censorText(String text, String badWord, String replacement) {
+    return text.replaceAll("(?i)" + badWord, replacement);
+}
 
 //задание 4
 public static int countSubstring(String sourceText, String sub) {
