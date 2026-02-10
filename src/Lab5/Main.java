@@ -32,7 +32,12 @@ public class Main {
 
         String text1 = "Я сидел и доедал последний кусочек торта, сзади открылась дверь, по шагам я узнал свою жену, моя спина покрылась мурашками. Ах ты бяка, не оставил мне ни крошки!";
 
-        String result = censorText(text1);
+        String result = censorText(
+                text1,
+                "бяка",
+                true,
+                "[вырезано цензурой]"
+        );
 
         System.out.println(result);
 

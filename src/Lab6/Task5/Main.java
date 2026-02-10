@@ -8,6 +8,8 @@ public class Main {
         String name = user.getName();
         int age = user.getAge();
 
+        System.out.println();
+        System.out.println("Пользователь:");
         System.out.println("Имя: " + name);
         System.out.println("Возраст: " + age);
     }
