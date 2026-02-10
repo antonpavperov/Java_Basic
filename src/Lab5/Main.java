@@ -34,10 +34,12 @@ public class Main {
                 "сзади открылась дверь, по шагам я узнал свою жену, " +
                 "моя спина покрылась мурашками. Ах ты бяка, не оставил мне ни крошки!";
 
-        String badWord = "бяка";
-        String replacement = "[вырезано цензурой]";
-
-        String result = censorText(text1, badWord, replacement);
+        String result = censorText(
+                text1,
+                "бяка",
+                true,
+                "[вырезано цензурой]"
+        );
 
         System.out.println(result);
 
